@@ -371,7 +371,6 @@
         <span class="sticker-tag">8+ yrs remote ⚡</span>
       </div>
     </div>
-    <canvas class="wave-strip bottom" data-wave-color="coral" aria-hidden="true"></canvas>
   </div>
   <canvas class="wave-strip bottom" data-wave-color="coral" aria-hidden="true"></canvas>
 </section>
@@ -776,7 +775,7 @@
         ctx.clearRect(0,0,w,h);
         t += 1;
 
-        ctx.lineWidth = 3.5;
+        ctx.lineWidth = 1.5;
         ctx.strokeStyle = 'rgba(' + rgb + ',0.55)';
         ctx.beginPath();
         for (var x = 0; x <= w; x += 4){
@@ -785,7 +784,7 @@
         }
         ctx.stroke();
 
-        ctx.lineWidth = 2;
+        ctx.lineWidth = 1.5;
         ctx.strokeStyle = 'rgba(' + rgb + ',0.28)';
         ctx.beginPath();
         for (var x2 = 0; x2 <= w; x2 += 4){
